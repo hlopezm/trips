@@ -1,0 +1,10 @@
+<h1>BoardCards#edit</h1>
+<%= form_for(@board_card) do |f|%>
+  <%= f.text_field :origin %>
+  <%= f.text_field :destination %>
+  <%= f.text_field :transport_type %>
+  <%= f.text_field :transport_number %>
+  <%= f.text_field :seat_number %>
+  <%= f.submit %>
+  <% end %>
+<p>Find me in app/views/board_cards/edit.html.erb</p>

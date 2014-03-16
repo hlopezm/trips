@@ -1,4 +1,6 @@
 Travel::Application.routes.draw do
+  get 'index' => 'board_cards#init'  
+  resources :board_cards
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
